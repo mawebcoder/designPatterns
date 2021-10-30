@@ -1,6 +1,7 @@
 <?php
 
-use Illuminate\Http\Request;
+use Illuminate\Http\Client\Response;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +15,33 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+
+Route::get('/elastic', function () {
+
+    $data=[
+
+        'query'=>[
+            'bool'=>
+            [
+                'must'=>
+                [
+                    [
+                        'match'=>
+                        [
+                            'name'=>
+                            [
+                                'query'=>'mohammad'
+                            ]
+                        ]
+                    ],
+                ]
+            ]
+        ]
+
+    ];
+
+    $response = Http::post('http://localhost:9400/product/attribute/_search', $data);
+
+    return response($response->json());
+
 });

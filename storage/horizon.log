@@ -1,0 +1,37 @@
+Horizon started successfully.
+Horizon started successfully.
+[2021-09-23 09:25:42][1363ee8e-10db-4262-974c-264554ddadfd] Processing: App\Jobs\test\TestJob
+[2021-09-23 09:25:42][1363ee8e-10db-4262-974c-264554ddadfd] Processed:  App\Jobs\test\TestJob
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+[2021-10-19 09:39:54][d216e9d0-82a3-46fc-8443-8da28da7e109] Processing: App\Events\SocketEvent
+[2021-10-19 09:39:55][d216e9d0-82a3-46fc-8443-8da28da7e109] Processed:  App\Events\SocketEvent
+[2021-10-19 09:40:28][6220fd5d-b614-46ee-95f5-36875dcb25f6] Processing: App\Events\SocketEvent
+[2021-10-19 09:40:28][6220fd5d-b614-46ee-95f5-36875dcb25f6] Processed:  App\Events\SocketEvent
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
